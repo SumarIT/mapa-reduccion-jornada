@@ -24,6 +24,7 @@ const f = {
     address: 'Dirección (calle, número y código postal. Ejemplo: Centro Cultural Gloria Fuertes, C/ Pío Baroja, 72, 28003)',
     locality: 'Municipio',
     coordinates: 'Coordenadas de Google Maps (haz click derecho sobre el lugar del mapa):',
+    ref: 'ref',
 };
 
 const parseDate = (dateStr) => {
@@ -80,8 +81,9 @@ d3.csv("data/acciones.csv", (data) => {
     const popupDate = isNaN(datetime)
         ? '<span class="date grey"></span>'
         : `<span class="date">${datetime.getUTCDate()}.${datetime.getUTCMonth()+1}.${datetime.getFullYear()} - ${datetime.toLocaleTimeString()}</span>`;
+    const popupButton = `<a href="https://actionnetwork.org/forms/unete-accion-reduccion-jornada-laboral?ref=${data[f.ref]}&source=${data[f.ref]}" target="_blank"><button>Unirme a esta acción</button></a>`;        
     const marker = L.marker([+coordinates[0], +coordinates[1]], { icon });
     marker.addTo(map);
-    marker.bindPopup(`${popupClaim}${popupAddress}${popupDate}`);
+    marker.bindPopup(`${popupClaim}${popupAddress}${popupDate}${popupButton}`);
     markers.push(marker);
 });

@@ -127,6 +127,16 @@ table {
   opacity: 0.7;
 }
 
+.leaflet-popup-content a button {
+  background: #e51c55;
+  color: white;
+  border: 0;
+  padding: 8px 10px;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
 .leaflet-control-attribution,
 .leaflet-popup-close-button {
   display: none;
