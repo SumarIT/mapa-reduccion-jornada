@@ -9,13 +9,6 @@ const markers = [];
 
 let popup = null;
 
-const iconOk = L.icon({
-    iconUrl: 'img/marker-icon-magenta.png', iconAnchor: [12.5, 41]
-});
-const iconGrey = L.icon({
-    iconUrl: 'img/marker-icon-grey.png', iconAnchor: [12.5, 41]
-});
-
 const f = {
     type: 'Tipo de acción',
     date: 'Fecha de la acción',
@@ -75,15 +68,16 @@ d3.csv("data/acciones.csv", (data) => {
         return;
     }
 
-    const icon = datetime > new Date() || isNaN(datetime) ? iconOk : iconGrey;
+    const icon = L.icon({ iconUrl: `img/${data[f.type].split(' ')[0]}.png`, iconAnchor: [12.5, 41] });
     const popupClaim = data[f.type] ? `<span class="title">${data[f.type]}</span>` : '';
     const popupAddress = `<span class="address">${data[f.address]}, ${data[f.locality]}</span>`;
     const popupDate = isNaN(datetime)
         ? '<span class="date grey"></span>'
         : `<span class="date">${datetime.getUTCDate()}.${datetime.getUTCMonth()+1}.${datetime.getFullYear()} - ${datetime.toLocaleTimeString()}</span>`;
+    const popupDuration = data[f.duration] ? `<span class="date">Duración: ${data[f.duration]} horas</span>` : '';
     const popupButton = `<a href="https://actionnetwork.org/forms/unete-accion-reduccion-jornada-laboral?ref=${data[f.ref]}&source=${data[f.ref]}" target="_blank"><button>Unirme a esta acción</button></a>`;        
     const marker = L.marker([+coordinates[0], +coordinates[1]], { icon });
     marker.addTo(map);
-    marker.bindPopup(`${popupClaim}${popupAddress}${popupDate}${popupButton}`);
+    marker.bindPopup(`${popupClaim}${popupAddress}${popupDate}${popupDuration}${popupButton}`);
     markers.push(marker);
 });
