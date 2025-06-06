@@ -6,7 +6,7 @@ Marca temporal,Tipo de acción,Fecha de la acción,Hora,Duración (en horas),Mun
 04/06/2025 12:56:41,Mesa informativa sobre Reducción de Jornada,14/06/2025,17:00:00,3,Santa Cruz de Tenerife,"C/ Valentín Sanz, 25, 38002 (Entre Plaza del Príncipe y Calle Castillo)","28.467695918828998, -16.251106600575714",5
 04/06/2025 13:03:39,Mesa informativa sobre Reducción de Jornada,15/06/2025,11:00:00,"2,5",Santa Cruz de Tenerife,"Frente al Mercado Nuestra Señora de África, C/ José Hernández Alfonso, 1, 38003 ","28.46310038032628, -16.252240534280823",6
 04/06/2025 18:44:53,Recogida de firmas en la calle,14/06/2025,11:00:00,2,Plasencia,Plaza de Santa Ana 2,"40.03159985638963, -6.0879610799873145",7
-04/06/2025 19:51:22,Mesa informativa sobre Reducción de Jornada,20/06/2025,18:00:00,2,Reus,CarrerSant Joan/ Gegant Indi,"41.15601321275035, 1.1042695064479942",8
+04/06/2025 19:51:22,Panel interactivo,20/06/2025,18:00:00,2,Reus,CarrerSant Joan/ Gegant Indi,"41.15601321275035, 1.1042695064479942",8
 04/06/2025 20:18:08,Recogida de firmas en la calle,14/06/2025,11:00:00,3,San Cristóbal de La Laguna,"Plaza de la Concepción, 18, 38201","28.49031122416775, -16.31968357787163",9
 04/06/2025 20:24:13,Reparto de flyers,14/06/2025,12:00:00,2,Las Palmas,"Monumento Espiral del Viento, C/ Triana 116, 35002","28.107926337048774, -15.4172383726366",10
 05/06/2025 10:46:48,Mesa informativa sobre Reducción de Jornada,11/06/2025,11:00:00,2,Tremp,"Rambla Pearson, 32-34, 25620","42.164733095882056, 0.8935369423294076",11
@@ -68,4 +68,4 @@ Marca temporal,Tipo de acción,Fecha de la acción,Hora,Duración (en horas),Mun
 6/06/2025 9:35:31,Mesa informativa sobre Reducción de la jornada,16/06/2025,10:00:00,3,Blanes,"Plaça d'Espanya 17300","41.67452171859261, 2.792374910039391",67
 06/06/2025 9:36:31,Reparto de Flyers,12/06/2025,18:00:00,2,Salt,"Ajuntament de Salt, 17190",Reparto de flyers y buzoneada por las calles de Salt,"41.97490776220258, 2.7925279523841193",68
 06/06/2025 9:37:31,Reparto de flyers,14/06/2025,11:00:00,3,Zaragoza,Lugar pendiente de confirmar,"41.64820435426115, -0.8849379651434955",69
-07/06/2025 9:37:31,Reparto de  flyers,14/06/2025,11:00:00,3,Riberira,Mercado de Ribeira,"42.55568711866038, -8.990958091666144",70
+07/06/2025 9:37:31,Reparto de flyers,14/06/2025,11:00:00,3,Ribeira,Mercado de Ribeira,"42.55568711866038, -8.990958091666144",70
