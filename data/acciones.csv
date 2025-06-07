@@ -1,6 +1,6 @@
 Marca temporal,Tipo de acción,Fecha de la acción,Hora,Duración (en horas),Municipio,"Dirección (calle, número y código postal. Ejemplo: Centro Cultural Gloria Fuertes, C/ Pío Baroja, 72, 28003)",Coordenadas de Google Maps (haz click derecho sobre el lugar del mapa):,ref
 31/05/2025 11:57:14,Mesa informativa sobre Reducción de Jornada,14/06/2025,10:00:00,4,Logroño,"Cruce Gran Vía con Daniel Trevijano, Gran Vía 40, 26001 Logroño","42.46488322112255, -2.4513719616804126",1
-31/05/2025 11:58:14,Recogida de firmas en la calle,15/06/2025,10:00:00,4,Logroño,"Cruce Gran Vía con Daniel Trevijano, Gran Vía 40, 26001 Logroño","42.469375447781744, -2.448694026466763",2
+31/05/2025 11:58:14,Recogida de firmas en la calle,15/06/2025,10:00:00,4,Logroño,"Cruce Gran Vía con Daniel Trevijano, Gran Vía 40, 26001 Logroño","42.46488322112255, -2.4513719616804126",2
 02/06/2025 12:39:46,Mesa informativa sobre Reducción de Jornada,13/06/2025,10:00:00,2,Atarfe,Mercadillo,"37.223483486109956, -3.6868720957737757",3
 04/06/2025 12:08:41,Recogida de firmas en la calle,14/06/2025,19:00:00,2,Sevilla,Alameda de Hércules,"37.398960286760364, -5.993410427433189",4
 04/06/2025 12:56:41,Mesa informativa sobre Reducción de Jornada,14/06/2025,17:00:00,3,Santa Cruz de Tenerife,"C/ Valentín Sanz, 25, 38002 (Entre Plaza del Príncipe y Calle Castillo)","28.467695918828998, -16.251106600575714",5
@@ -20,8 +20,8 @@ Marca temporal,Tipo de acción,Fecha de la acción,Hora,Duración (en horas),Mun
 05/06/2025 16:40:06,Recogida de firmas en la calle,14/06/2025,11:00:00,3,San Cristóbal de La Laguna,"Plaza de la Concepción, 18, 38201","28.490312123086877, -16.31967631555131",19
 31/05/2025 11:57:14,Mesa y recogida firmas,14/06/2025,17:00:00,3,Murcia,"Calle Cartegan s/n, Cuartel de artillería de Murcia","37.97908567634864, -1.134634782848738",20
 01/06/2025 11:57:14,Panel interactivo,14/06/2025,19:00:00,3,Mérida,Plaza Margarita Xirgu,"38.9170716199385, -6.338015088860912",21
-02/06/2025 11:57:14,Mesa informativa,14/06/2025,10:00:00,4,Valencia,"Mercadito del Cabañal (Carrer de Martí Grajales, 4)","39.46833769019594, -0.3337726483530994",22
-03/06/2025 11:57:14,Recogida de firmas,14/06/2025,10:00:00,4,Valencia,"Mercadito de Benicalap (Calle Miguel Servet, 28)","39.48859326009899, -0.3941214731589984",23
+02/06/2025 11:57:14,Panel interactivo,14/06/2025,10:00:00,4,Valencia,"Mercat Municipal Cabanyal (Carrer de Martí Grajales, 4)","39.46833769019594, -0.3337726483530994",22
+03/06/2025 11:57:14,Recogida de firmas,14/06/2025,10:00:00,4,Valencia,"Mercat de Benicalap (Calle Miguel Servet, 28)","39.48859326009899, -0.3941214731589984",23
 04/06/2025 11:57:14,Mesa informativa,14/06/2025,10:00:00,4,Granada,Mercadillo del Zaidín (Calle Baden Powell),"37.15344039900409, -3.608126706144739",24
 05/06/2025 11:57:14,Recogida de firmas,14/06/2025,12:00:00,2,Granada,"Fuente de las Batallas (Calle Acera del Casino,  15)","37.17258850428904, -3.598621519636671",25
 06/06/2025 11:57:14,Mesa informativa,15/06/2025,10:00:00,4,Granada,Mercadillo de Almanjáyar,"37.208867548764076, -3.6129172998006274",26
